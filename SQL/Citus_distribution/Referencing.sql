@@ -1,0 +1,20 @@
+--applicable in both D1 and D2
+SELECT create_reference_table('date_dim');
+SELECT create_reference_table('time_dim');
+SELECT create_reference_table('item');
+SELECT create_reference_table('customer');
+SELECT create_reference_table('customer_address');
+SELECT create_reference_table('customer_demographics');
+SELECT create_reference_table('household_demographics');
+SELECT create_reference_table('income_band');
+SELECT create_reference_table('store');
+SELECT create_reference_table('warehouse');
+SELECT create_reference_table('promotion');
+SELECT create_reference_table('reason');
+SELECT create_reference_table('call_center');
+SELECT create_reference_table('web_site');
+SELECT create_reference_table('web_page');
+SELECT create_reference_table('catalog_page');
+SELECT create_reference_table('ship_mode');
+SELECT create_reference_table('catalog_page');
+SELECT create_reference_table('ship_mode'); 

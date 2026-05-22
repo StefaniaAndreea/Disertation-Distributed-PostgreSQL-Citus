@@ -1,0 +1,13 @@
+Categorie_sintactica,Nr_Interogari,Total_Interogari,Pondere_pct
+Interogari cu agregari,223,250,89.2
+Interogari cu CTE,59,250,23.6
+Interogari cu subinterogari,58,250,23.2
+Interogari cu functii window,39,250,15.6
+Interogari cu operatori pentru multimi,22,250,8.8
+Interogari cu agregari avansate,3,250,1.2
+Interogari cu sortare explicita,210,250,84
+Interogari cu 0 join-uri,4,250,1.6
+Interogari cu 1 join,18,250,7.2
+Interogari cu 2 join-uri,63,250,25.2
+Interogari cu 3 join-uri,80,250,32
+Interogari cu 4 sau mai multe join-uri,85,250,34

@@ -1,0 +1,11 @@
+Element_sintactic,Valori
+Numar de tabele,min=1; max=8
+Numar total de join-uri,min=0; max=12
+Tipuri de join,"INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN"
+Subinterogari,min=0; max=6
+Expresii tabela comune (CTE),min=0; max=4
+Clauze SQL,"GROUP BY, ORDER BY, LIMIT, DISTINCT, HAVING, CASE"
+Functii de agregare,"AVG, COUNT, MAX, MIN, SUM"
+Operatori in WHERE,"!=, <, <=, <>, =, >, >=, BETWEEN, IN, IS NOT NULL, IS NULL, LIKE"
+Operatori in HAVING,"<, =, >, >=, BETWEEN, IN, IS NOT NULL"
+Operatii SQL avansate,"WINDOW/OVER, UNION, EXCEPT, INTERSECT, GROUPING, ROLLUP, CUBE"

@@ -1,0 +1,6 @@
+--Run from Command Prompt as Administrator
+--first run example
+"C:\apache-jmeter-5.6.3\bin\jmeter.bat" -n -t "C:\Users\Administrator\Desktop\stefania\tpcds.jmx" -l "C:\Users\Administrator\Desktop\stefania\rezultate_sf50_n2_d2.csv" -j "C:\Users\Administrator\Desktop\stefania\sf50_n2_d2.log" -Jjmeter.save.saveservice.autoflush=true
+
+--run from a certain query after server error
+"C:\apache-jmeter-5.6.3\bin\jmeter.bat" -n -t "C:\Users\Administrator\Desktop\stefania\tpcds.jmx" -l "C:\Users\Administrator\Desktop\stefania\rezultate_sf50_n2_d2_102.csv" -j "C:\Users\Administrator\Desktop\stefania\sf50_n2_d2_102.log" -Jjmeter.save.saveservice.autoflush=true
