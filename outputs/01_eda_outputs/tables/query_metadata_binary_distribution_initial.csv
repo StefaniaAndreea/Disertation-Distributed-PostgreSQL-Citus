@@ -1,0 +1,15 @@
+variable,n_yes,n_no,percent_yes
+has_group_by,223,27,89.2
+has_aggregates,223,27,89.2
+has_order_by,210,40,84
+has_having,85,165,34
+has_distinct,57,193,22.8
+has_limit,52,198,20.8
+has_window,39,211,15.6
+has_case,36,214,14.4
+has_union,11,239,4.4
+has_intersect,7,243,2.8
+has_except,6,244,2.4
+has_rollup,2,248,0.8
+has_grouping,1,249,0.4
+has_cube,1,249,0.4

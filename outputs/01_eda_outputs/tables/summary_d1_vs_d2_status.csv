@@ -1,0 +1,29 @@
+sf,workers,status_comparison_class,n_queries,total_queries,pct_queries
+10,2,Ambele SUCCESS,216,250,86.4
+10,2,Ambele esec acelasi status,19,250,7.6
+10,2,"D1 SUCCESS, D2 esec",9,250,3.5999999999999996
+10,2,"D1 esec, D2 SUCCESS",5,250,2
+10,2,Ambele esec status diferit,1,250,0.4
+10,5,Ambele SUCCESS,216,250,86.4
+10,5,Ambele esec acelasi status,19,250,7.6
+10,5,"D1 SUCCESS, D2 esec",9,250,3.5999999999999996
+10,5,"D1 esec, D2 SUCCESS",5,250,2
+10,5,Ambele esec status diferit,1,250,0.4
+50,2,Ambele SUCCESS,211,250,84.39999999999999
+50,2,Ambele esec acelasi status,24,250,9.6
+50,2,"D1 SUCCESS, D2 esec",9,250,3.5999999999999996
+50,2,"D1 esec, D2 SUCCESS",6,250,2.4
+50,5,Ambele SUCCESS,211,250,84.39999999999999
+50,5,Ambele esec acelasi status,24,250,9.6
+50,5,"D1 SUCCESS, D2 esec",9,250,3.5999999999999996
+50,5,"D1 esec, D2 SUCCESS",6,250,2.4
+100,2,Ambele SUCCESS,207,250,82.8
+100,2,Ambele esec acelasi status,24,250,9.6
+100,2,"D1 SUCCESS, D2 esec",10,250,4
+100,2,"D1 esec, D2 SUCCESS",8,250,3.2
+100,2,Ambele esec status diferit,1,250,0.4
+100,5,Ambele SUCCESS,208,250,83.2
+100,5,Ambele esec acelasi status,25,250,10
+100,5,"D1 SUCCESS, D2 esec",10,250,4
+100,5,"D1 esec, D2 SUCCESS",6,250,2.4
+100,5,Ambele esec status diferit,1,250,0.4

@@ -1,0 +1,15 @@
+sf,strategy,status_comparison_class,n_queries,total_queries,pct_queries
+10,D1,Ambele au rulat cu succes,225,250,90
+10,D1,Ambele au esuat cu acelasi status,25,250,10
+10,D2,Ambele au rulat cu succes,221,250,88.4
+10,D2,Ambele au esuat cu acelasi status,29,250,11.600000000000001
+50,D1,Ambele au rulat cu succes,220,250,88
+50,D1,Ambele au esuat cu acelasi status,30,250,12
+50,D2,Ambele au rulat cu succes,217,250,86.8
+50,D2,Ambele au esuat cu acelasi status,33,250,13.200000000000001
+100,D1,Ambele au rulat cu succes,217,250,86.8
+100,D1,Ambele au esuat cu acelasi status,32,250,12.8
+100,D1,"Imbunatatire: N2 esec, N5 succes",1,250,0.4
+100,D2,Ambele au rulat cu succes,214,250,85.6
+100,D2,Ambele au esuat cu acelasi status,35,250,14.000000000000002
+100,D2,"Inrautatire: N2 succes, N5 esec",1,250,0.4

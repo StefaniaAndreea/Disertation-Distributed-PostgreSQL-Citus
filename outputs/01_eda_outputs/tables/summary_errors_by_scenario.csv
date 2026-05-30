@@ -1,0 +1,95 @@
+scenario,status,error_category,n_queries
+SF10_N2_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF10_N2_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF10_N2_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF10_N2_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF10_N2_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF10_N2_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF10_N2_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,1
+SF10_N2_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF10_N2_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF10_N2_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF10_N2_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF10_N2_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF10_N2_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF10_N2_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF10_N5_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF10_N5_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF10_N5_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF10_N5_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF10_N5_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF10_N5_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF10_N5_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,1
+SF10_N5_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF10_N5_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF10_N5_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF10_N5_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF10_N5_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF10_N5_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF10_N5_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF50_N0,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,3
+SF50_N2_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF50_N2_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF50_N2_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,5
+SF50_N2_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF50_N2_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF50_N2_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF50_N2_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF50_N2_D1,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF50_N2_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF50_N2_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF50_N2_D2,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,4
+SF50_N2_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF50_N2_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF50_N2_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF50_N2_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF50_N2_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF50_N5_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF50_N5_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF50_N5_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,5
+SF50_N5_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF50_N5_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF50_N5_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF50_N5_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF50_N5_D1,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF50_N5_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF50_N5_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF50_N5_D2,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,4
+SF50_N5_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF50_N5_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF50_N5_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF50_N5_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF50_N5_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,1
+SF100_N0,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,6
+SF100_N2_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF100_N2_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF100_N2_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,6
+SF100_N2_D1,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,3
+SF100_N2_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF100_N2_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF100_N2_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF100_N2_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF100_N2_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF100_N2_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF100_N2_D2,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,4
+SF100_N2_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,3
+SF100_N2_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF100_N2_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF100_N2_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF100_N2_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF100_N5_D1,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF100_N5_D1,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,7
+SF100_N5_D1,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,5
+SF100_N5_D1,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,3
+SF100_N5_D1,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF100_N5_D1,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF100_N5_D1,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,1
+SF100_N5_D1,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1
+SF100_N5_D2,CITUS_ARCH_ERROR,Join complex intre tabele distribuite necolocate,11
+SF100_N5_D2,CITUS_ARCH_ERROR,Parallel DDL + FK catre reference table,10
+SF100_N5_D2,TIMEOUT_3600,Timeout peste pragul de 3600 secunde,5
+SF100_N5_D2,SERVER_CRASH,Intrerupere conexiune / restart PostgreSQL necesar,3
+SF100_N5_D2,CITUS_ARCH_ERROR,Alta limitare arhitecturala Citus,2
+SF100_N5_D2,CITUS_ARCH_ERROR,GROUPING SETS / CUBE / ROLLUP fara filtru pe cheia de distributie,2
+SF100_N5_D2,CITUS_ARCH_ERROR,Subquery in lista SELECT nepusa in push-down,2
+SF100_N5_D2,CITUS_ARCH_ERROR,Recursive CTE neexecutabil distribuit in forma curenta,1

@@ -1,0 +1,13 @@
+variable,value,n,percent
+has_cross_join,yes,3,1.2
+has_cross_join,no,247,98.8
+has_cte,yes,59,23.6
+has_cte,no,191,76.4
+has_full_join,yes,3,1.2
+has_full_join,no,247,98.8
+has_left_join,yes,47,18.8
+has_left_join,no,203,81.2
+has_right_join,yes,2,0.8
+has_right_join,no,248,99.2
+has_subqueries,yes,58,23.2
+has_subqueries,no,192,76.8

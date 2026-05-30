@@ -1,0 +1,14 @@
+variable,n_distinct_values
+n_cross_joins,2
+n_full_joins,2
+n_right_joins,2
+n_ctes,4
+n_left_joins,4
+n_subqueries,5
+n_aggregate_types,6
+n_having_predicates,7
+n_tables,8
+n_inner_joins,9
+n_joins,11
+n_where_predicates,11
+n_aggregate_calls,12

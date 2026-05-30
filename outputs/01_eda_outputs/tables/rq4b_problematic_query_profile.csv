@@ -1,0 +1,46 @@
+query_id,n_executions,n_success,n_citus_arch_error,n_timeout,n_server_crash,success_rate,n_tables,n_joins,n_subqueries,n_ctes,n_inner_joins,n_left_joins,n_right_joins,n_full_joins,n_cross_joins,has_group_by,has_order_by,has_limit,has_distinct,has_having,has_case,has_aggregates,aggregate_types,n_aggregate_types,n_aggregate_calls,n_where_predicates,where_operators,n_having_predicates,having_operators,has_window,has_union,has_except,has_intersect,has_grouping,has_rollup,has_cube,has_cte,has_subqueries,has_left_join,has_right_join,has_full_join,has_cross_join
+Q013,12,0,12,0,0,0,4,2,2,0,2,0,0,0,0,no,no,no,no,no,no,no,NA,0,0,6,=,0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q051,12,0,12,0,0,0,2,3,0,0,3,0,0,0,0,yes,yes,yes,yes,yes,no,yes,COUNT,1,3,4,"!=, =",1,>,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q065,12,0,12,0,0,0,5,3,1,0,3,0,0,0,0,yes,yes,no,no,yes,no,yes,SUM,1,2,4,"BETWEEN, IN, =",1,>,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q069,12,0,12,0,0,0,3,1,1,0,1,0,0,0,0,yes,yes,no,no,yes,no,yes,SUM,1,2,2,"IN, =",1,>,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q103,12,0,12,0,0,0,4,3,0,0,3,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,1,2,=,0,NA,no,no,no,no,no,yes,no,no,no,no,no,no,no
+Q110,12,0,12,0,0,0,3,4,2,0,4,0,0,0,0,yes,yes,no,no,no,no,yes,AVG,1,4,6,=,0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q119,12,0,12,0,0,0,4,3,0,0,3,0,0,0,0,yes,yes,no,no,yes,no,yes,SUM,1,6,3,"IS NOT NULL, =",2,>,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q121,12,0,12,0,0,0,3,3,1,0,3,0,0,0,0,yes,no,no,no,no,no,yes,SUM,1,3,5,"IS NOT NULL, =",0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q124,12,0,12,0,0,0,3,2,2,0,2,0,0,0,0,no,no,no,no,no,no,no,NA,0,0,6,=,0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q125,12,0,12,0,0,0,4,2,2,0,2,0,0,0,0,no,no,no,no,no,no,yes,SUM,1,2,6,"IS NOT NULL, =",0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q132,12,0,12,0,0,0,2,2,1,0,0,2,0,0,0,yes,yes,no,no,no,no,yes,COUNT,1,1,3,"=, <",0,NA,no,yes,no,no,no,no,no,no,yes,yes,no,no,no
+Q160,12,0,12,0,0,0,4,1,2,0,1,0,0,0,0,no,yes,no,no,no,no,no,NA,0,0,4,=,0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q197,12,0,12,0,0,0,4,3,0,0,2,1,0,0,0,no,yes,no,yes,no,yes,no,NA,0,0,1,=,0,NA,no,no,no,no,no,no,no,no,no,yes,no,no,no
+Q198,12,0,12,0,0,0,3,3,1,0,2,1,0,0,0,no,yes,no,yes,no,yes,no,NA,0,0,2,=,0,NA,no,no,no,no,no,no,no,no,yes,yes,no,no,no
+Q233,12,0,12,0,0,0,4,2,1,0,2,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,1,3,=,0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q235,12,0,12,0,0,0,4,5,1,0,5,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,1,9,"IS NOT NULL, <>, =",0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q237,12,0,12,0,0,0,2,1,0,0,1,0,0,0,0,yes,yes,no,no,no,yes,yes,SUM,1,1,3,"IS NOT NULL, IN, <>",0,NA,no,no,no,no,no,yes,no,no,no,no,no,no,no
+Q238,12,0,12,0,0,0,4,3,0,0,3,0,0,0,0,yes,yes,no,no,no,yes,yes,SUM,1,1,2,"IS NOT NULL, <>",0,NA,no,no,no,no,yes,no,yes,no,no,no,no,no,no
+Q248,12,0,12,0,0,0,4,3,1,0,2,1,0,0,0,yes,yes,yes,no,no,no,yes,SUM,1,1,4,"IS NOT NULL, IS NULL, =",0,NA,no,no,no,no,no,no,no,no,yes,yes,no,no,no
+Q101,12,0,0,2,10,0,5,4,0,0,1,3,0,0,0,yes,yes,no,no,no,yes,yes,SUM,1,3,0,NA,0,NA,no,no,no,no,no,no,no,no,no,yes,no,no,no
+Q061,12,4,6,2,0,33.3,4,3,0,0,3,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,2,2,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q028,12,4,0,8,0,33.3,3,1,1,0,1,0,0,0,0,no,no,no,no,no,no,no,NA,0,0,3,"IN, =",0,NA,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q099,12,4,0,8,0,33.3,3,2,0,1,0,2,0,0,0,yes,yes,no,no,no,yes,yes,"AVG, SUM",2,3,4,"IS NOT NULL, =",0,NA,no,no,no,no,no,no,no,yes,no,yes,no,no,no
+Q024,12,6,6,0,0,50,4,3,0,0,3,0,0,0,0,yes,no,no,no,no,no,yes,SUM,1,1,1,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q040,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,4,3,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q050,12,6,6,0,0,50,4,3,0,0,3,0,0,0,0,no,yes,yes,no,no,no,no,NA,0,0,1,>,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q055,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,yes,no,no,no,no,yes,COUNT,1,1,2,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q064,12,6,6,0,0,50,4,4,0,0,4,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,2,3,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q068,12,6,6,0,0,50,3,1,3,0,1,0,0,0,0,yes,yes,no,no,yes,no,yes,SUM,1,2,3,"IN, =",5,"IN, =, >",no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q208,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,yes,yes,yes,no,no,yes,COUNT,1,1,3,"!=, =",0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q209,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,no,no,no,no,no,no,NA,0,0,3,=,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q210,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,no,no,yes,yes,no,yes,COUNT,1,2,3,=,1,>,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q211,12,6,6,0,0,50,3,4,0,0,4,0,0,0,0,yes,yes,yes,yes,yes,no,yes,COUNT,1,2,3,=,1,>,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q247,12,6,6,0,0,50,4,3,0,0,3,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,2,2,IS NOT NULL,0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q249,12,6,6,0,0,50,4,3,0,0,3,0,0,0,0,yes,no,no,no,no,no,yes,SUM,1,2,3,"IS NOT NULL, >",0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q250,12,6,6,0,0,50,4,3,0,0,3,0,0,0,0,yes,yes,yes,no,no,no,yes,SUM,1,2,3,"IS NOT NULL, >",0,NA,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q054,12,7,0,5,0,58.3,3,2,0,2,2,0,0,0,0,yes,yes,no,yes,yes,no,yes,"AVG, COUNT",2,4,1,BETWEEN,2,"IS NOT NULL, >",yes,no,no,no,no,no,no,yes,no,no,no,no,no
+Q183,12,8,0,0,4,66.7,4,3,0,1,3,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,7,3,=,0,NA,no,yes,no,no,no,no,no,yes,no,no,no,no,no
+Q184,12,8,0,0,4,66.7,4,3,0,2,3,0,0,0,0,yes,yes,no,no,no,no,yes,SUM,1,3,3,=,0,NA,yes,yes,no,no,no,no,no,yes,no,no,no,no,no
+Q052,12,8,0,4,0,66.7,4,3,0,0,2,0,1,0,0,yes,yes,no,no,no,no,yes,SUM,1,1,1,BETWEEN,0,NA,no,no,no,no,no,no,no,no,no,no,yes,no,no
+Q053,12,8,0,4,0,66.7,4,3,0,0,2,0,1,0,0,yes,yes,no,no,yes,no,yes,SUM,1,2,1,BETWEEN,1,=,no,no,no,no,no,no,no,no,no,no,yes,no,no
+Q045,12,10,0,2,0,83.3,3,2,0,0,2,0,0,0,0,yes,yes,no,yes,yes,no,yes,COUNT,1,2,0,NA,1,>,no,no,no,no,no,no,no,no,no,no,no,no,no
+Q067,12,10,0,2,0,83.3,5,4,1,0,4,0,0,0,0,yes,yes,no,yes,yes,no,yes,SUM,1,4,5,"IN, =",2,>,no,no,no,no,no,no,no,no,yes,no,no,no,no
+Q221,12,10,0,2,0,83.3,4,4,1,0,3,1,0,0,0,yes,no,no,yes,no,yes,yes,"MAX, MIN",2,3,4,"BETWEEN, =",0,NA,no,no,no,no,no,no,no,no,yes,yes,no,no,no
+Q220,12,11,0,1,0,91.7,4,4,1,0,3,1,0,0,0,yes,no,no,yes,no,no,yes,"MAX, MIN",2,3,4,"BETWEEN, =",0,NA,no,no,no,no,no,no,no,no,yes,yes,no,no,no
