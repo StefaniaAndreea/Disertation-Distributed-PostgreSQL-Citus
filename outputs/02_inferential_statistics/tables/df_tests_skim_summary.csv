@@ -1,0 +1,45 @@
+skim_type,skim_variable,n_missing,complete_rate,character.min,character.max,character.empty,character.n_unique,character.whitespace,factor.ordered,factor.n_unique,factor.top_counts,logical.mean,logical.count,numeric.mean,numeric.sd,numeric.p0,numeric.p25,numeric.p50,numeric.p75,numeric.p100,numeric.hist
+character,scenario,0,1,7,11,0,15,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+character,query_id,0,1,4,4,0,250,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,strategy,0,1,NA,NA,NA,NA,NA,FALSE,3,"D1: 1500, D2: 1500, bas: 750",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,architecture,0,1,NA,NA,NA,NA,NA,FALSE,2,"dis: 3000, bas: 750",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,status,0,1,NA,NA,NA,NA,NA,FALSE,4,"SUC: 3371, CIT: 312, TIM: 49, SER: 18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_group_by,0,1,NA,NA,NA,NA,NA,FALSE,2,"yes: 3345, no: 405",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_order_by,0,1,NA,NA,NA,NA,NA,FALSE,2,"yes: 3150, no: 600",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_limit,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 2970, yes: 780",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_distinct,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 2895, yes: 855",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_having,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 2475, yes: 1275",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_case,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3210, yes: 540",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_aggregates,0,1,NA,NA,NA,NA,NA,FALSE,2,"yes: 3345, no: 405",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_window,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3165, yes: 585",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_union,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3585, yes: 165",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_except,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3660, yes: 90",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_intersect,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3645, yes: 105",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_grouping,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3735, yes: 15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_rollup,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3720, yes: 30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_cube,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3735, yes: 15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_cte,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 2865, yes: 885",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_subqueries,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 2880, yes: 870",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_left_join,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3045, yes: 705",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_right_join,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3720, yes: 30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_full_join,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3705, yes: 45",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+factor,has_cross_join,0,1,NA,NA,NA,NA,NA,FALSE,2,"no: 3705, yes: 45",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+logical,success,0,1,NA,NA,NA,NA,NA,NA,NA,NA,0.8989333333333334,"TRU: 3371, FAL: 379",NA,NA,NA,NA,NA,NA,NA,NA
+numeric,sf,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,53.333333333333336,36.82278008865994,10,10,50,100,100,▇▁▇▁▇
+numeric,workers,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.8,1.939330537612339,0,2,2,5,5,▃▇▁▁▇
+numeric,query_no,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,125.5,72.17783064854403,1,63,125.5,188,250,▇▇▇▇▇
+numeric,elapsed_sec,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,176.168956,531.6043773885896,0.002,3.25275,16.5045,86.16999999999999,3702.08,▇▁▁▁▁
+numeric,n_tables,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.868,1.1911987188696755,1,3,4,4,8,▁▅▇▁▁
+numeric,n_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.188,1.582821558617094,0,2,3,4,12,▅▇▂▁▁
+numeric,n_inner_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.908,1.4953702892418272,0,2,3,4,9,▂▇▃▁▁
+numeric,n_left_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.248,0.5887176093677012,0,0,0,0,3,▇▂▁▁▁
+numeric,n_right_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.008,0.08909611007869521,0,0,0,0,1,▇▁▁▁▁
+numeric,n_full_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.012,0.10889978164954335,0,0,0,0,1,▇▁▁▁▁
+numeric,n_cross_joins,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.012,0.10889978164954335,0,0,0,0,1,▇▁▁▁▁
+numeric,n_subqueries,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.32,0.7055017567147942,0,0,0,0,6,▇▁▁▁▁
+numeric,n_ctes,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.348,0.689218885922842,0,0,0,0,4,▇▂▁▁▁
+numeric,n_aggregate_types,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.452,0.8943764918361319,0,1,1,2,5,▇▅▁▁▁
+numeric,n_aggregate_calls,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.828,2.1651018554050694,0,1,3,4,15,▇▂▁▁▁
+numeric,n_where_predicates,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.952,1.89912026354488,0,2,3,4,12,▇▆▂▁▁
+numeric,n_having_predicates,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.512,0.9849440071661946,0,0,0,1,7,▇▁▁▁▁
+numeric,log_elapsed_sec,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.1158668665842082,1.2523384163740463,-2.6989700043360187,0.5122478879446609,1.21760206889186,1.9353560191289136,3.568445799393426,▁▁▆▇▃
