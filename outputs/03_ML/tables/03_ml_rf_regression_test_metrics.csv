@@ -1,0 +1,4 @@
+.metric,.estimator,.estimate,model
+rmse,standard,0.6097781116440991,Random Forest Regressor
+rsq,standard,0.500546845378344,Random Forest Regressor
+mae,standard,0.4586301806177472,Random Forest Regressor

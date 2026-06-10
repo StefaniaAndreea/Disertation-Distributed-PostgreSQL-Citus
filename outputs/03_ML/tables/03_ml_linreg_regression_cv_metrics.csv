@@ -1,0 +1,4 @@
+.metric,.estimator,mean,n,std_err,.config,model
+mae,standard,0.432731717512175,5,0.01003025166063557,Preprocessor1_Model1,Linear Regression
+rmse,standard,0.5605236770892303,5,0.013186628444000602,Preprocessor1_Model1,Linear Regression
+rsq,standard,0.576024246808732,5,0.015634851417488927,Preprocessor1_Model1,Linear Regression

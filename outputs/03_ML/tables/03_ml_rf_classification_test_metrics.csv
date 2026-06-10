@@ -1,0 +1,6 @@
+.metric,.estimator,.estimate,model
+accuracy,binary,0.8789473684210526,Random Forest
+bal_accuracy,binary,0.5080805938494167,Random Forest
+sens,binary,0.9726829268292683,Random Forest
+spec,binary,0.043478260869565216,Random Forest
+roc_auc,binary,0.8324156945917286,Random Forest

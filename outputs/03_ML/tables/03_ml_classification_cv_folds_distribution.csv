@@ -1,0 +1,11 @@
+id,success,n,pct
+Resample1,TRUE,511,97.33
+Resample1,FALSE,14,2.67
+Resample2,TRUE,490,93.33
+Resample2,FALSE,35,6.67
+Resample3,TRUE,436,83.05
+Resample3,FALSE,89,16.95
+Resample4,TRUE,488,92.95
+Resample4,FALSE,37,7.05
+Resample5,TRUE,421,82.55
+Resample5,FALSE,89,17.45

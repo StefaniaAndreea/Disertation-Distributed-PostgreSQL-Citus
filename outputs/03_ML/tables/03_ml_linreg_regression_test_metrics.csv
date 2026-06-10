@@ -1,0 +1,4 @@
+.metric,.estimator,.estimate,model
+rmse,standard,0.6183846119907086,Linear Regression
+rsq,standard,0.4824763026915924,Linear Regression
+mae,standard,0.4698590342149585,Linear Regression
